@@ -72,7 +72,7 @@ function check_sketch()
   timer_counter++;
   document.getElementById('time').innerHTML = 'Tiempo: ' + timer_counter;
   console.log(timer_counter)
-  if(timer_counter > 2000)
+  if(timer_counter > 1000)
     {
       timer_counter = 0;
       timer_check = "completado"
